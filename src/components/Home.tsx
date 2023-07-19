@@ -1,7 +1,15 @@
 import React from 'react';
 
+import '../pages/Home.css';
 const Home: React.FC = () => {
-    return <h1>Page d'accueil</h1>;
+    return (
+        <div
+            className="home-background">
+                <p className="home-text">
+                    I will destroy your ass
+                </p>
+        </div>
+);
 };
 
 export default Home;

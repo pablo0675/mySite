@@ -1,0 +1,22 @@
+.home-background {
+    background-image: url("../assets/home.jpg");
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    height: 92.9vh;
+    margin-top: 0rem;
+    margin-bottom: -50px;
+}
+
+.home-text {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+}

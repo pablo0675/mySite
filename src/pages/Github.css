@@ -1,0 +1,40 @@
+.Github {
+    text-align: center;
+}
+
+.Github-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Github-logo {
+        animation: Github-logo-spin infinite 20s linear;
+    }
+}
+
+.Github-header {
+    background-color: #eaeaea;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Github-link {
+    padding-top: 5vh;
+    color: #dc2f2f;
+    font-weight: bold;
+}
+
+@keyframes Github-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
