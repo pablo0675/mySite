@@ -15,13 +15,14 @@
 
 .Github-header {
     background-color: #eaeaea;
-    min-height: 92vh;
+    min-height: 93vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    max-height: 93vh;
 }
 
 .Github-link {

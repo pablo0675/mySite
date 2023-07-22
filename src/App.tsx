@@ -6,6 +6,7 @@ import Github from './components/Github';
 import Feet from "./components/Feet";
 import Hidden from "./components/Hidden";
 import './App.css';
+import NewGuy from "./components/NewGuy";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" Component={Login} />
           <Route path="/feet" Component={Feet} />
           <Route path="/hidden" Component={Hidden} />
+          <Route path={"/inscription"} Component={NewGuy} />
       </Routes>
     </Router>
   );

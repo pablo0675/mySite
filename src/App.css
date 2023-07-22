@@ -36,13 +36,13 @@
   align-items: center;
   padding-left: 5vh;
   padding-right: 5vh;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   margin-bottom: 0;
 }
 
 .nav-link {
-  color: #070f4e;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   margin-right: 10px;
@@ -50,5 +50,5 @@
 }
 
 .nav-link:hover {
-  color: #fffdc1;
+  color: #000000;
 }

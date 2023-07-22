@@ -1,31 +1,31 @@
-.login {
+.newGuy {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.login h2 {
+.newGuy h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.login form {
+.newGuy form {
     display: flex;
     flex-direction: column;
 }
 
-.login label {
+.newGuy label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.login input {
+.newGuy input {
     height: 30px;
     padding: 5px;
     margin-bottom: 10px;
@@ -33,7 +33,7 @@
     border-radius: 4px;
 }
 
-.login button {
+.newGuy button {
     height: 40px;
     background-color: #c24d2c;
     color: #fff;
@@ -42,11 +42,11 @@
     cursor: pointer;
 }
 
-.login button:hover {
+.newGuy button:hover {
     background-color: #a43b1d;
 }
 
-.input-container {
+.input container {
     display: flex;
     flex-direction: column;
 }

@@ -3,9 +3,10 @@
     background-size: cover;
     background-position: 50% 30%;
     background-repeat: no-repeat;
-    height: 92.9vh;
+    height: 93.1vh;
     margin-top: 0rem;
     margin-bottom: -50px;
+    max-height: 93.1vh;
 }
 
 .home-text {
@@ -19,4 +20,5 @@
     left: 50%;
     text-align: center;
     width: 100%;
+    padding-bottom: 0;
 }
