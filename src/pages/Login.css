@@ -5,14 +5,15 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     position: absolute;
-    top: 40%;
+    background-color: #ececec;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .login h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .login form {
@@ -34,6 +35,7 @@
 }
 
 .login button {
+    margin-bottom: 2rem;
     height: 40px;
     background-color: #c24d2c;
     color: #fff;
